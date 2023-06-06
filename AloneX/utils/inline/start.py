@@ -30,7 +30,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="⚙️ sᴇᴛᴛɪɴɢ ⚙️", callback_data="settings_helper"
+                text="✮ sᴇᴛᴛɪɴɢs ✮", callback_data="settings_helper"
             ),
         ],
      ]
@@ -41,31 +41,27 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✚",
+                text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="✨ ᴏᴡɴᴇʀ ✨", url=f"https://t.me/{OWNER_USERNAME}",
-            ),
-            InlineKeyboardButton(
-                text="🔎 ʜᴇʟᴘ 🔎", callback_data="settings_back_helper"
+                text="❀⋟ ʜᴇʟᴘ ⋞❀", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="💫 sᴜᴘᴘᴏʀᴛ 💫", url=f"https://t.me/{YOUR_GROUP}",
+                text="✭ ᴜᴘᴅᴀᴛᴇs ✭", url=f"https://t.me/{YOUR_CHANNEL}",
             ),
             InlineKeyboardButton(
-                text="🍁 ᴜᴘᴅᴀᴛᴇs 🍁", url=f"https://t.me/{YOUR_CHANNEL}",
+                text="✭ sᴜᴘᴘᴏʀᴛ ✭", url=f"https://t.me/{YOUR_GROUP}",
             )
         ],
         [
             InlineKeyboardButton(
-                text="❄️ sᴏᴜʀᴄᴇ ❄️",
-                url=f"https://github.com/TeamAloneOp/AloneX/fork",
+                text="✮ sᴏᴜʀᴄᴇ ✮", url="https://github.com/TeamAloneOp/AloneX/fork"
             )
-        ],
+        ]
      ]
     return buttons
