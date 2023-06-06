@@ -75,7 +75,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="💥🔥𝔻eͥѵeͣlͫ𐍉קeℝ🔥💥", url="https://t.me/ALONE_WAS_BOT"
+                text="❀⋟ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⋞❀", url="https://t.me/ALONE_WAS_BOT"
             ),
         ],
          [
@@ -152,7 +152,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="💥🔥𝔻eͥѵeͣlͫ𐍉קeℝ🔥💥", url="https://t.me/ALONE_WAS_BOT"
+                text="❀⋟ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⋞❀", url="https://t.me/ALONE_WAS_BOT"
             ),
         ],
          [
@@ -198,7 +198,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="💥🔥𝔻eͥѵeͣlͫ𐍉קeℝ🔥💥", url="https://t.me/ALONE_WAS_BOT"
+                text="❀⋟ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⋞❀", url="https://t.me/ALONE_WAS_BOT"
             ),
         ],
          [
@@ -244,7 +244,7 @@ def telegram_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="💥🔥𝔻eͥѵeͣlͫ𐍉קeℝ🔥💥", url="https://t.me/ALONE_WAS_BOT"
+                text="❀⋟ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⋞❀", url="https://t.me/ALONE_WAS_BOT"
             ),
         ],
          [
