@@ -10,7 +10,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="𝐀ᑯᑯ 𝐀ℓσиє 𝐌υѕι¢ 𝚰𐓣 𝐆𝗋ⱺυρ ",
-                url=f"https://t.me/JiosaavnTetrisbot?startgroup=true",
+                url=f"https://t.me/AloneXMusicBot?startgroup=true",
             )
         ],
         [
@@ -31,7 +31,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="𝐀ᑯᑯ 𝐀ℓσиє 𝐌υѕι¢ 𝚰𐓣 𝐆𝗋ⱺυρ",
-                url=f"https://t.me/JiosaavnTetrisbot?startgroup=true",
+                url=f"https://t.me/AloneXMusicBot?startgroup=true",
             )
         ],
         [
@@ -39,7 +39,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="𝑯𝒆𝒍𝒑", callback_data="settings_back_helper"
             ),
             InlineKeyboardButton(
-                text="𝐀ℓσиє 𝐌υѕι¢", url=f"https://www.spotify.com/"
+                text="𝐀ℓσиє 𝐌υѕι¢", url=f"https://music.apple.com/"
             )
         ],
      ]
