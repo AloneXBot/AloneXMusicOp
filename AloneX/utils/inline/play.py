@@ -541,6 +541,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="❀⋟ 𝐃єνєℓσρєя ⋞❀", url="https://t.me/ALONE_WAS_BOT"
+            )
         ],
         [
             InlineKeyboardButton(
@@ -573,7 +574,8 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝐀ℓσиє 𝐌υѕι¢", url=f"https://wynk.in/music")
+                text="❀⋟ 𝐃єνєℓσρєя ⋞❀", url="https://t.me/ALONE_WAS_BOT"
+            )
         ],
         [
             InlineKeyboardButton(
@@ -608,6 +610,7 @@ def telegram_markup(_, chat_id):
             ),
             InlineKeyboardButton(
                 text="❀⋟ 𝐃єνєℓσρєя ⋞❀", url="https://t.me/ALONE_WAS_BOT"
+            )
         ],
         [
             InlineKeyboardButton(
